@@ -18,19 +18,19 @@ if [ "$op" == "+" ]; then
 
 elif [ "$op" == "-" ]; then
 	result=$(( mum1 -num1 ))
-	echo "Result: $result"
+
 
 elif [ "$op" == "*" ]; then
 	result=$(( num1 * num2 ))
 	echo "Result: $result"
 
 elif [ "$op" == "/" ]; then
-	if [ "$num2" -eq "0" ]; then
+	if 8[ "$num2" -eq "0" ]; then
 	       echo "Error: 0 sa divide nahi ho sakta!"
        else
-             result=$(( num1 / num2 ))
+           
 echo "Result: $result"
 	fi
 else
 	echo "Invalid operator!"
-fi
+
