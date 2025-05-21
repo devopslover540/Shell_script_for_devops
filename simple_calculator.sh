@@ -17,7 +17,7 @@ if [ "$op" == "+" ]; then
         echo "Result: $result"
 
 elif [ "$op" == "-" ]; then
-	result=$(( mum1 -num2 ))
+	result=$(( mum1 -num1 ))
 	echo "Result: $result"
 
 elif [ "$op" == "*" ]; then
